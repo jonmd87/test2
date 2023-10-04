@@ -1,0 +1,31 @@
+  228  cat > beasts_of_burden
+  229  ll
+  230  cat beasts_of_burden 
+  231  cat > pets
+  232  cat pets 
+  233  cat pets beasts_of_burden > human_friends
+  234  cat human_friends 
+  235  mkdir test2
+  236  mv human_friends ./test2/
+  237  ll
+  238  ls
+  239  rm -rf pets 
+  240  rm -rf beasts_of_burden 
+  241  ls -la
+  242  ls -l
+  243  history
+  244  history > result
+  245  ll
+  246  cat result
+  247  vim result 
+  248  sudo apt update
+  249  sudo apt install -y vim
+  250  vim result 
+  251  sudo dpkg -i mysql-apt-config_0.8.26-1_all.deb
+  252  sudo apt update
+  253  sudo apt install -y mysql-server
+  256  sudo wget http://ftp.de.debian.org/debian/pool/main/g/gimp/gimp_2.10.8-2_amd64.deb
+  257  sudo dpgk -i gimp_2.10.8-2_amd64.deb 
+  258  sudo dpkg -i gimp_2.10.8-2_amd64.deb 
+  259  sudo dpkg -r gimp
+  265  history > ./test2/result 
